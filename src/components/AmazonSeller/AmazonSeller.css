@@ -1,0 +1,20 @@
+.amazon-div {
+  font-family: "Roboto Condensed", sans-serif;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: rgb(235, 247, 252);
+  /* background: radial-gradient(circle, rgb(243, 243, 157) 5%, white 100%); */
+  /* background: radial-gradient(circle,white 2%, rgb(248, 248, 128) 35%,rgb(236, 191, 40) 95%); */
+ background-image: linear-gradient(to right, rgb(245, 188, 3) , white);
+  padding: 15px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .amazon-div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+  }
+}
