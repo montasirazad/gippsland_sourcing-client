@@ -11,26 +11,12 @@ const NavBar = () => {
   };
   return (
     <>
-      <div>
-        <img
-          src={menuIcon}
-          alt="menuIcon"
-          className="menuIcon"
-          onClick={() => showNavBar()}
-        />
-
-        {/* <div className="nav-side">
-          <img src={logo} alt="logo" />
-
-          <div className="link-div">
-            <a href="">option 1</a>
-            <a href="">option 2</a>
-            <a href="">option 3</a>
-            <a href="">option 4</a>
-            <a href="">option 5</a>
-          </div>
-        </div> */}
-      </div>
+      <img
+        src={menuIcon}
+        alt="menuIcon"
+        className="menuIcon"
+        onClick={() => showNavBar()}
+      />
 
       <div className="nav-main" ref={navRef}>
         <img src={logo} alt="logo" />

@@ -29,6 +29,10 @@ img {
 }
 .menuIcon {
   display: none;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  z-index: 100;
 }
 img:hover {
   cursor: pointer;
@@ -58,7 +62,7 @@ img:hover {
 
   .responsive_nav {
     transform: none;
-    top: 50px;
+    top: 0;
   }
 
   .menuIcon {
