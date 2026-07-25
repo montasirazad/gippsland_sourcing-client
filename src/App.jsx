@@ -1,3 +1,5 @@
+import upImg from '../src/assets/up-arrow-svgrepo-com.png';
+import "./App.css";
 import Accordion from "./components/Accordion/Accordion";
 import AmazonSeller from "./components/AmazonSeller/AmazonSeller";
 import Footer from "./components/Footer/Footer";
@@ -22,6 +24,13 @@ const allData = [
   },
 ];
 function App() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <>
       <NavBar />
@@ -32,6 +41,9 @@ function App() {
       ))}
       <Vas />
       <Footer />
+      <button onClick={() => scrollToTop()} className="scroll-to-top">
+        <img src={upImg} alt="" />
+      </button>
     </>
   );
 }

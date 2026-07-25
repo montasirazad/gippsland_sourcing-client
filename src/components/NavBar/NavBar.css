@@ -29,7 +29,7 @@ img {
 }
 .menuIcon {
   display: none;
-  position: absolute;
+  position: fixed;
   right: 10px;
   top: 5px;
   z-index: 100;
@@ -63,6 +63,8 @@ img:hover {
   .responsive_nav {
     transform: none;
     top: 0;
+    position: fixed;
+     
   }
 
   .menuIcon {
