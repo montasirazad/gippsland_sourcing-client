@@ -1,17 +1,22 @@
 .accordion-data-div-main {
-  width: 55%;
+  width: 50%;
   margin: 20px auto;
 }
 
 .accordion-title-div {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  height: 60px;
-  color: black;
-  background-color: rgb(217, 217, 247);
+  height: 45px;
+  color: rgb(29, 14, 14);
+  background-color: ghostwhite;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  padding-left: 35px;
+  padding-right: 35px;
+  box-shadow:
+    rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 .accordion-data-div {
@@ -20,27 +25,30 @@
 }
 .active {
   height: 80px;
-  text-align: center;
-  border: 1px solid darkblue;
+  padding: 15px;
+  text-align: left;
+  box-shadow:
+    rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
 .accordion-data-div-main-button {
   background-color: rgb(14, 202, 14);
-  width: 35px;
-  height: 35px;
+  width: 25px;
+  height: 25px;
   border: none;
   border-radius: 50%;
   cursor: pointer;
   color: white;
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .open {
   background-color: red;
 }
-.accordion-title-div:hover{
- background-color: yellowgreen;
+.accordion-title-div:hover {
+  background-color: rgb(217, 217, 247);
 }
 @media screen and (max-width: 600px) {
   .accordion-data-div-main {

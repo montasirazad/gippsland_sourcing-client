@@ -9,7 +9,7 @@ const Accordion = ({ singleData }) => {
     <div className="accordion-data-div-main">
       <div className="accordion-title-div">
         <div>
-          <h1>{title}</h1>
+          <h2>{title}</h2>
         </div>
         <div>
           {/* <button onClick={() => setOpen(!open)}>{open ? "➖" : '➕'}</button> */}

@@ -1,7 +1,9 @@
 import Accordion from "./components/Accordion/Accordion";
 import AmazonSeller from "./components/AmazonSeller/AmazonSeller";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import NavBar from "./components/NavBar/NavBar";
+import Vas from "./components/Vas/Vas";
 const allData = [
   {
     id: 1,
@@ -28,6 +30,8 @@ function App() {
       {allData.map((singleData) => (
         <Accordion singleData={singleData} key={singleData.id} />
       ))}
+      <Vas />
+      <Footer />
     </>
   );
 }

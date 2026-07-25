@@ -1,0 +1,13 @@
+.vas-main{
+margin-top: 100px;
+margin-bottom: 100px;
+text-align: center;
+background-color: whitesmoke;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+.vas-card{
+    display: flex;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+}
