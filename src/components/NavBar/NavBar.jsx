@@ -33,11 +33,7 @@ const NavBar = () => {
               <a href="#" onClick={() => toggleMenu("our-services")}>
                 Our Services {isDrop === "our-services" ? upArrow : downArrow}
               </a>
-              <div
-                className={
-                  isDrop ? "dropdown-content-show" : ""
-                }
-              >
+              <div className="dropdown-content">
                 <a href="#">Link 1</a>
                 <a href="#">Link 2</a>
                 <a href="#">Link 3</a>
@@ -55,7 +51,7 @@ const NavBar = () => {
               </div>
             </li>
             <li>
-              <a href="">Products</a>
+              <a href="#">Products</a>
             </li>
             <li className="dropdown">
               {" "}
@@ -69,7 +65,7 @@ const NavBar = () => {
               </div>
             </li>
             <li className="dropdown">
-              <a href="">
+              <a href="#" onClick={() => toggleMenu("resources")}>
                 Resources {isDrop === "resources" ? upArrow : downArrow}
               </a>
               <div className="dropdown-content">

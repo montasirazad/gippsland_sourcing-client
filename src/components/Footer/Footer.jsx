@@ -26,7 +26,7 @@ const Footer = () => {
           CONTACT US <br />
           Email: GippslandSourcing.com
           <br />
-          Tel: +0000000000
+          <a href="tel:+8801686356445">+88 0168 6356 445</a>
         </div>
       </div>{" "}
       <br />
