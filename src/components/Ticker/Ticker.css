@@ -1,0 +1,39 @@
+.ticker {
+  width: 100%;
+  overflow: hidden;
+  background-color: #1e293be6;
+  color: #f1f5f9;
+
+  z-index: 10;
+}
+
+.ticker__track {
+  display: flex;
+  width: max-content;
+  animation: ticker-scroll 30s linear infinite;
+}
+
+.ticker__item {
+  flex: 0 0 auto;
+  padding: 10px 40px;
+  white-space: nowrap;
+}
+
+@keyframes ticker-scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    /* transform: translateX(-50%); */
+     transform: translateX(calc(-100% / 2));
+  }
+}
+
+@media screen and (max-width: 600px) {
+   .ticker{
+    position: absolute;
+    top: 10%;
+     
+   } 
+}

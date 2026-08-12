@@ -1,10 +1,11 @@
-import upImg from '../src/assets/up-arrow-svgrepo-com.png';
+import upImg from "../src/assets/up-arrow-svgrepo-com.png";
 import "./App.css";
 import Accordion from "./components/Accordion/Accordion";
 import AmazonSeller from "./components/AmazonSeller/AmazonSeller";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import NavBar from "./components/NavBar/NavBar";
+import Ticker from "./components/Ticker/Ticker";
 import Vas from "./components/Vas/Vas";
 const allData = [
   {
@@ -34,6 +35,7 @@ function App() {
   return (
     <>
       <NavBar />
+      <Ticker />
       <Header />
       <AmazonSeller />
       {allData.map((singleData) => (
