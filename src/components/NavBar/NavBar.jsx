@@ -1,19 +1,18 @@
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import logo from "../../assets/gippsland_sourcing_no_bg.png";
 import menuIcon from "../../assets/menu-icon.svg";
 import "./NavBar.css";
+
 const NavBar = () => {
-  const [isDrop, setIsDrop] = useState(null);
   const navRef = useRef();
   const downArrow = "\u25BC";
+  // eslint-disable-next-line no-unused-vars
   const upArrow = "\u25B2";
   const showNavBar = () => {
     navRef.current.classList.toggle("responsive_nav");
     // console.log(navRef);
   };
-  const toggleMenu = (menu) => {
-    setIsDrop(isDrop === menu ? null : menu);
-  };
+
   return (
     <>
       <img
@@ -30,24 +29,20 @@ const NavBar = () => {
           <ul>
             <li className="dropdown">
               {" "}
-              <a href="#" onClick={() => toggleMenu("our-services")}>
-                Our Services {isDrop === "our-services" ? upArrow : downArrow}
-              </a>
+              <a href="#">Our Services {downArrow}</a>
               <div className="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+                <a href="#">Our Services Link 1</a>
+                <a href="#">Our Services Link 2</a>
+                <a href="#">Our Services Link 3</a>
               </div>
             </li>
             <li className="dropdown">
               {" "}
-              <a href="#" onClick={() => toggleMenu("solutions")}>
-                Solutions {isDrop === "solutions" ? upArrow : downArrow}
-              </a>
+              <a href="#">Solutions{downArrow}</a>
               <div className="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+                <a href="#">Solutions Link 1</a>
+                <a href="#">Solutions Link 2</a>
+                <a href="#">Solutions Link 3</a>
               </div>
             </li>
             <li>
@@ -55,23 +50,19 @@ const NavBar = () => {
             </li>
             <li className="dropdown">
               {" "}
-              <a href="#" onClick={() => toggleMenu("about")}>
-                About {isDrop === "about" ? upArrow : downArrow}
-              </a>
+              <a href="#">About{downArrow}</a>
               <div className="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+                <a href="#">About Link 1</a>
+                <a href="#">About Link 2</a>
+                <a href="#">About Link 3</a>
               </div>
             </li>
             <li className="dropdown">
-              <a href="#" onClick={() => toggleMenu("resources")}>
-                Resources {isDrop === "resources" ? upArrow : downArrow}
-              </a>
+              <a href="#">Resources{downArrow}</a>
               <div className="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+                <a href="#">Resources Link 1</a>
+                <a href="#">Resources Link 2</a>
+                <a href="#">Resources Link 3</a>
               </div>
             </li>
           </ul>
