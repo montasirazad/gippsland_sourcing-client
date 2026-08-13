@@ -27,6 +27,12 @@ const Footer = () => {
           Email: GippslandSourcing.com
           <br />
           <a href="tel:+8801686356445">+88 0168 6356 445</a>
+          <br />
+          <div className="social-icon">
+            <a href="#" className="fa fa-facebook"></a>
+            <a href="#" className="fa fa-linkedin"></a>
+            <a href="#" className="fa fa-instagram"></a>
+          </div>
         </div>
       </div>{" "}
       <br />

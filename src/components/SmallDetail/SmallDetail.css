@@ -1,0 +1,42 @@
+.small-detail-main {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.small-detail-info {
+  padding: 5px 25px;
+  border-radius: 30px;
+}
+
+.small-detail-info:nth-child(1 of.small-detail-info) {
+  background-color: lightblue;
+  color: darkblue;
+}
+.small-detail-info:nth-child(2 of.small-detail-info) {
+  background-color: rgb(229, 245, 199);
+  border-color: rgb(134, 239, 172);
+  color: darkblue;
+}
+.small-detail-info:nth-child(3 of.small-detail-info) {
+  background-color: papayawhip;
+  color: darkblue;
+}
+
+@media screen and (max-width: 600px) {
+  .small-detail-main {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    justify-content: center;
+    /* position: absolute; */
+    /* margin: 0 auto; */
+    margin-top: 25%;
+    margin-bottom: 0;
+    width: 100%;
+    z-index: 60;
+  }
+}

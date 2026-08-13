@@ -5,6 +5,7 @@ import AmazonSeller from "./components/AmazonSeller/AmazonSeller";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import NavBar from "./components/NavBar/NavBar";
+import SmallDetail from "./components/SmallDetail/SmallDetail";
 import Ticker from "./components/Ticker/Ticker";
 import Vas from "./components/Vas/Vas";
 const allData = [
@@ -36,6 +37,7 @@ function App() {
     <>
       <NavBar />
       <Ticker />
+      <SmallDetail />
       <Header />
       <AmazonSeller />
       {allData.map((singleData) => (

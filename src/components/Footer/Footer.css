@@ -42,15 +42,42 @@
   /* border: 1px solid green; */
   height: 100px;
 }
+.social-icon .fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
 
+.social-icon .fa:hover {
+  opacity: 0.7;
+  color: white;
+}
+ 
+.social-icon .fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.social-icon .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.social-icon .fa-instagram {
+  background: #125688;
+  color: white;
+}
 @media screen and (max-width: 600px) {
   .footer-link {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  /* border: 1px solid blue; */
-  height: auto;
-}  
-.links-div {
-  margin-bottom: 40px;
-}
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* border: 1px solid blue; */
+    height: auto;
+  }
+  .links-div {
+    margin-bottom: 40px;
+  }
 }
