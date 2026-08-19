@@ -27,7 +27,7 @@ const NavBar = () => {
             <li className="dropdown">
               {" "}
               <a href="#">
-                Our Services <i class="fa-solid fa-circle-chevron-down"></i>
+                Our Services <i className="fa-solid fa-circle-chevron-down"></i>
               </a>
               <div className="dropdown-content">
                 <a href="#">Our Services Link 1</a>
@@ -38,7 +38,7 @@ const NavBar = () => {
             <li className="dropdown">
               {" "}
               <a href="#">
-                Solutions <i class="fa-solid fa-circle-chevron-down"></i>
+                Solutions <i className="fa-solid fa-circle-chevron-down"></i>
               </a>
               <div className="dropdown-content">
                 <a href="#">Solutions Link 1</a>
@@ -52,7 +52,7 @@ const NavBar = () => {
             <li className="dropdown">
               {" "}
               <a href="#">
-                About <i class="fa-solid fa-circle-chevron-down"></i>
+                About <i className="fa-solid fa-circle-chevron-down"></i>
               </a>
               <div className="dropdown-content">
                 <a href="#">About Link 1</a>
@@ -62,7 +62,7 @@ const NavBar = () => {
             </li>
             <li className="dropdown">
               <a href="#">
-                Resources <i class="fa-solid fa-circle-chevron-down"></i>
+                Resources <i className="fa-solid fa-circle-chevron-down"></i>
               </a>
               <div className="dropdown-content">
                 <a href="#">Resources Link 1</a>
