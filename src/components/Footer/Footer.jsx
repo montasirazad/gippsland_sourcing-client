@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../../assets/gippsland_sourcing_no_bg.png";
 import "./Footer.css";
 const Footer = () => {
@@ -20,7 +21,10 @@ const Footer = () => {
           <a href="">Faq</a>
           <a href="">Blog</a>
           <a href="">Contact us</a>
-          <a href="">Legal</a>
+          <br />
+          <h3>Legal</h3>
+          <Link to={"/privacy-policy"}>Privacy Policy</Link>
+          <Link to={"/terms-of-service"}>Terms of Service</Link>
         </div>
         <div className="links-div">
           CONTACT US <br />
@@ -29,10 +33,26 @@ const Footer = () => {
           <a href="tel:+8801686356445">+88 0168 6356 445</a>
           <br />
           <div className="social-icon">
-            <a href="#" className="fa-brands fa-facebook"></a>
-            <a href="#" className="fa-brands fa-linkedin"></a>
-            <a href="#" className="fa-brands fa-instagram"></a>
-            <a href="#" className="fa-brands fa-tiktok"></a>
+            <Link
+              to={"https://www.facebook.com"}
+              target="_blank"
+              className="fa-brands fa-facebook"
+            ></Link>
+            <Link
+              to={"https://www.linkedin.com"}
+              target="_blank"
+              className="fa-brands fa-linkedin"
+            ></Link>
+            <Link
+              to={"https://www.instagram.com"}
+              target="_blank"
+              className="fa-brands fa-instagram"
+            ></Link>
+            <Link
+              to={"https://www.tiktok.com"}
+              target="_blank"
+              className="fa-brands fa-tiktok"
+            ></Link>
           </div>
         </div>
       </div>{" "}

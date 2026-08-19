@@ -1,6 +1,6 @@
 img {
   width: 70px;
-  margin-left: 5%;
+  margin-left: 40%;
 }
 
 .nav-main {
@@ -74,6 +74,9 @@ img:hover {
 }
 
 @media screen and (max-width: 600px) {
+  img{
+    margin-left: 5%;
+  }
   .nav-main {
     position: absolute;
     top: 0px;

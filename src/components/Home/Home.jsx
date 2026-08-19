@@ -1,10 +1,8 @@
-import upImg from "../../assets/up-arrow-svgrepo-com.png";
 import Accordion from "../Accordion/Accordion";
 import AmazonSeller from "../AmazonSeller/AmazonSeller";
 import FeedbackCarousel from "../FeedbackCarousel/FeedbackCarousel";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
-import NavBar from "../NavBar/NavBar";
 import SmallDetail from "../SmallDetail/SmallDetail";
 import Ticker from "../Ticker/Ticker";
 import Vas from "../Vas/Vas";
@@ -26,16 +24,16 @@ const allData = [
   },
 ];
 const Home = () => {
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: "smooth",
-    });
-  };
+  // const scrollToTop = () => {
+  //   window.scrollTo({
+  //     top: 0,
+  //     left: 0,
+  //     behavior: "smooth",
+  //   });
+  // };
   return (
     <>
-      <NavBar />
+      {/* <NavBar /> */}
       <Ticker />
       <SmallDetail />
       <Header />
@@ -46,9 +44,9 @@ const Home = () => {
       <FeedbackCarousel />
       <Vas />
       <Footer />
-      <button onClick={() => scrollToTop()} className="scroll-to-top">
+      {/* <button onClick={() => scrollToTop()} className="scroll-to-top">
         <img src={upImg} alt="" />
-      </button>
+      </button> */}
     </>
   );
 };

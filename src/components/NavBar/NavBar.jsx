@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 import logo from "../../assets/gippsland_sourcing_no_bg.png";
 import menuIcon from "../../assets/menu-icon.svg";
 import "./NavBar.css";
@@ -20,7 +21,10 @@ const NavBar = () => {
       />
 
       <div className="nav-main" ref={navRef}>
-        <img src={logo} alt="logo" />
+        <Link to={"/"}>
+          {" "}
+          <img src={logo} alt="logo" />
+        </Link>
 
         <div className="link-div">
           <ul>

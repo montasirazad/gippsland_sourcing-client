@@ -1,0 +1,8 @@
+.terms-of-service {
+  text-align: justify;
+  max-width: 700px;
+  margin: 5% auto 30px auto;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 30px;
+}
