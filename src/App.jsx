@@ -1,55 +1,13 @@
-import upImg from "../src/assets/up-arrow-svgrepo-com.png";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Accordion from "./components/Accordion/Accordion";
-import AmazonSeller from "./components/AmazonSeller/AmazonSeller";
-import FeedbackCarousel from "./components/FeedbackCarousel/FeedbackCarousel";
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
-import NavBar from "./components/NavBar/NavBar";
-import SmallDetail from "./components/SmallDetail/SmallDetail";
-import Ticker from "./components/Ticker/Ticker";
-import Vas from "./components/Vas/Vas";
-const allData = [
-  {
-    id: 1,
-    title: "Title 1",
-    data: "Lorem ipsum dolor sit amet consectetur.",
-  },
-  {
-    id: 2,
-    title: "Title 2",
-    data: "Lorem ipsum dolor sit amet consectetur.",
-  },
-  {
-    id: 3,
-    title: "Title 3",
-    data: "Lorem ipsum dolor sit amet consectetur.",
-  },
-];
+import Home from "./components/Home/Home";
+
 function App() {
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: "smooth",
-    });
-  };
   return (
     <>
-      <NavBar />
-      <Ticker />
-      <SmallDetail />
-      <Header />
-      <AmazonSeller />
-      {allData.map((singleData) => (
-        <Accordion singleData={singleData} key={singleData.id} />
-      ))}
-      <FeedbackCarousel />
-      <Vas />
-      <Footer />
-      <button onClick={() => scrollToTop()} className="scroll-to-top">
-        <img src={upImg} alt="" />
-      </button>
+      <Routes>
+        <Route index element={<Home />} />
+      </Routes>
     </>
   );
 }
