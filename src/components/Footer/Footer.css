@@ -55,7 +55,10 @@
   opacity: 0.7;
   color: white;
 }
-
+ .links-div .fa-whatsapp{
+  color: #25D366;
+  font-size: 15px;
+}
 .social-icon .fa-facebook {
   background: #3b5998;
   color: white;

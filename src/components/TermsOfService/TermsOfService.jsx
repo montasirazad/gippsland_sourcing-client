@@ -38,33 +38,16 @@ const TermsOfService = () => {
           import logistics solutions for China-to-Australia trade. We are the
           company you contract with, and we deliver these services directly and
           through the third-party providers we engage on your behalf. Our
-          services include:
-          <ul>
-            <li>
-              Product Sourcing & Purchasing — Supplier identification, vetting,
-              and procurement from Chinese manufacturers
-            </li>
-            <li>
-              Product Sourcing & Purchasing — Supplier identification, vetting,
-              and procurement from Chinese manufacturers
-            </li>
-            <li>
-              Product Sourcing & Purchasing — Supplier identification, vetting,
-              and procurement from Chinese manufacturers
-            </li>
-            <li>
-              Product Sourcing & Purchasing — Supplier identification, vetting,
-              and procurement from Chinese manufacturers
-            </li>
-            <li>
-              Product Sourcing & Purchasing — Supplier identification, vetting,
-              and procurement from Chinese manufacturers
-            </li>
-            <li>
-              Product Sourcing & Purchasing — Supplier identification, vetting,
-              and procurement from Chinese manufacturers
-            </li>
-          </ul>
+          services include: Product Sourcing & Purchasing — Supplier
+          identification, vetting, and procurement from Chinese manufacturers
+          Product Sourcing & Purchasing — Supplier identification, vetting, and
+          procurement from Chinese manufacturers Product Sourcing & Purchasing —
+          Supplier identification, vetting, and procurement from Chinese
+          manufacturers Product Sourcing & Purchasing — Supplier identification,
+          vetting, and procurement from Chinese manufacturers Product Sourcing &
+          Purchasing — Supplier identification, vetting, and procurement from
+          Chinese manufacturers Product Sourcing & Purchasing — Supplier
+          identification, vetting, and procurement from Chinese manufacturers
         </p>
         <p>
           Our Role — Sourcing and QC: For a sourcing order that expressly
