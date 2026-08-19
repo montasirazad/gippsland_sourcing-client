@@ -5,9 +5,6 @@ import "./NavBar.css";
 
 const NavBar = () => {
   const navRef = useRef();
-  const downArrow = "\u25BC";
-  // eslint-disable-next-line no-unused-vars
-  const upArrow = "\u25B2";
   const showNavBar = () => {
     navRef.current.classList.toggle("responsive_nav");
     // console.log(navRef);
@@ -29,7 +26,9 @@ const NavBar = () => {
           <ul>
             <li className="dropdown">
               {" "}
-              <a href="#">Our Services {downArrow}</a>
+              <a href="#">
+                Our Services <i class="fa-solid fa-circle-chevron-down"></i>
+              </a>
               <div className="dropdown-content">
                 <a href="#">Our Services Link 1</a>
                 <a href="#">Our Services Link 2</a>
@@ -38,7 +37,9 @@ const NavBar = () => {
             </li>
             <li className="dropdown">
               {" "}
-              <a href="#">Solutions{downArrow}</a>
+              <a href="#">
+                Solutions <i class="fa-solid fa-circle-chevron-down"></i>
+              </a>
               <div className="dropdown-content">
                 <a href="#">Solutions Link 1</a>
                 <a href="#">Solutions Link 2</a>
@@ -50,7 +51,9 @@ const NavBar = () => {
             </li>
             <li className="dropdown">
               {" "}
-              <a href="#">About{downArrow}</a>
+              <a href="#">
+                About <i class="fa-solid fa-circle-chevron-down"></i>
+              </a>
               <div className="dropdown-content">
                 <a href="#">About Link 1</a>
                 <a href="#">About Link 2</a>
@@ -58,7 +61,9 @@ const NavBar = () => {
               </div>
             </li>
             <li className="dropdown">
-              <a href="#">Resources{downArrow}</a>
+              <a href="#">
+                Resources <i class="fa-solid fa-circle-chevron-down"></i>
+              </a>
               <div className="dropdown-content">
                 <a href="#">Resources Link 1</a>
                 <a href="#">Resources Link 2</a>
