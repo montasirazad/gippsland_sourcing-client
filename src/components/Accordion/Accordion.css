@@ -18,7 +18,15 @@
     rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
     rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
+.accordion-title-div button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
 
+.accordion-title-div .fa-solid {
+  font-size: 30px;
+}
 .accordion-data-div {
   height: 0;
   transition: height 600ms;
@@ -33,20 +41,7 @@
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-.accordion-data-div-main-button {
-  background-color: rgb(14, 202, 14);
-  width: 25px;
-  height: 25px;
-  border: none;
-  border-radius: 50%;
-  cursor: pointer;
-  color: white;
-  font-size: 15px;
-}
 
-.open {
-  background-color: red;
-}
 .accordion-title-div:hover {
   background-color: rgb(217, 217, 247);
 }

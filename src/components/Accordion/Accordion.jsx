@@ -12,12 +12,12 @@ const Accordion = ({ singleData }) => {
           <h2>{title}</h2>
         </div>
         <div>
-          {/* <button onClick={() => setOpen(!open)}>{open ? "➖" : '➕'}</button> */}
-          <button
-            className={`accordion-data-div-main-button ${open ? "open" : ""}`}
-            onClick={() => setOpen(!open)}
-          >
-            {open ? "-" : "+"}
+          <button onClick={() => setOpen(!open)}>
+            {open ? (
+              <i className="fa-solid fa-circle-chevron-up" />
+            ) : (
+              <i className="fa-solid fa-circle-chevron-down" />
+            )}
           </button>
         </div>
       </div>

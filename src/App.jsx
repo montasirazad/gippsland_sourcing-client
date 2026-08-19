@@ -2,6 +2,7 @@ import upImg from "../src/assets/up-arrow-svgrepo-com.png";
 import "./App.css";
 import Accordion from "./components/Accordion/Accordion";
 import AmazonSeller from "./components/AmazonSeller/AmazonSeller";
+import FeedbackCarousel from "./components/FeedbackCarousel/FeedbackCarousel";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import NavBar from "./components/NavBar/NavBar";
@@ -43,6 +44,7 @@ function App() {
       {allData.map((singleData) => (
         <Accordion singleData={singleData} key={singleData.id} />
       ))}
+      <FeedbackCarousel />
       <Vas />
       <Footer />
       <button onClick={() => scrollToTop()} className="scroll-to-top">
